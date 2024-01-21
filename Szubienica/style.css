@@ -1,0 +1,55 @@
+body {
+    background: black;
+    color: LightGray;
+}
+
+#haslo {
+
+    font-size: 70px;
+    margin: 50px 0;
+    text-align:center;
+}
+
+#content{
+    width: 1600 px;
+    margin 40px auto;
+}
+
+#szubienica {
+    display:inline-block;
+    width: 800px;
+    margin: 0;
+    padding 0;
+}
+
+#szubienica img {
+    width: 700px;
+}
+
+#litery {
+display: inline-block;
+}
+
+
+#litery div {
+    display: inline-block;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid LightGray;
+    border-radius: 15px;
+    margin: 7px;
+    cursor: pointer;
+    transition: color, border, background 0.5s;
+}
+
+#litery div:hover{
+    color: white;
+    border 2px solid white;
+    background: #333333;
+}
+
+#lose, #win {
+    font-size: 70px;
+}
